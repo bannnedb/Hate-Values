@@ -1,0 +1,365 @@
+html {
+    background-color: #520606;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body {
+    width: 80%;
+    min-height: calc(100vh - 4em);
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #aa6363;
+    border-color: #c21616;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 20px;
+}
+p {
+    color: #444444;
+    font-family: 'Teko', sans-serif;
+    font-size: 18.5pt;
+    line-height: 1.15;
+    margin: 4pt;
+}
+
+p.value {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    text-indent: -16pt;
+    margin-left: 20pt;
+    font-size: 24pt;
+    line-height: 2.11666656px;
+    letter-spacing: 0.03em;
+    font-family: 'Teko';
+}
+
+p.axis_name {
+    margin-top: 50px;
+    color: #520606;
+    font-size: 19pt;
+    font-family: 'Teko';
+}
+p.question {
+    margin: 16pt auto;
+    color: #000;
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+    width: 70%;
+    min-width: 500pt;
+    min-height: 144pt;
+    background-color: #cb3131;
+    padding: 16pt;
+    border-radius: 16pt;
+    font-size: 36pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h1 {
+    color: #222222;
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    text-align: center;
+    line-height: 72pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+h2 {
+    color: #333333;
+    font-family: 'Teko', sans-serif;
+    font-size: 34pt;
+    line-height: 36pt;
+    margin-top: 12pt;
+    margin-bottom: 10pt;
+}
+li {
+    font-size: 16pt;
+    text-indent: 16pt;
+}
+a {
+    font-family: inherit;
+}
+div.center {
+    background-color: #b99090;
+    font-family: 'Teko', sans-serif;
+    border-radius: 8pt;
+    padding: 6pt;
+    color: white;
+    width: 50%;
+    min-width: 488pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: auto;
+}
+img.quadcolumn {
+    width: 23.75%;
+    transition: transform .3s;
+}
+img.quadcolumn:hover {
+    transform: scale(1.05);
+  }
+div.quadcolumn {
+    width: 23.75%;
+}
+div.axis_name {
+    color: #333333;
+    font-size: 19pt;
+    font-family: 'Teko';
+    display: inline-block;
+    padding-bottom: 8.65pt;
+}
+.spacer {
+    display: flex;
+}
+.spacer > div{
+    margin-top: 10px;
+    display: inline-block;
+    *display: inline; /* For IE7 */
+    text-align: center;
+}
+.button {
+    background-color: #2196f3;
+    font-family: 'Teko', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 50%;
+    min-width: 500pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: -2px auto;
+    cursor: pointer;
+}
+.button:hover, .button:focus { background: #1b390c; }
+.stronglyAgree { background: #277400; }
+.stronglyAgree:hover, .stronglyAgree:focus { background: #000000; }
+.agree { background: #6cc93d; }
+.agree:hover, .agree:focus { background: #000000; }
+.neutral { background: #bababa; }
+.neutral:hover, .neutral:focus { background: #000000; }
+.disagree { background: #c93d3d; }
+.disagree:hover, .disagree:focus { background: #000000; }
+.stronglyDisagree { background: #740000; }
+.stronglyDisagree:hover, .stronglyDisagree:focus { background: #000000; }
+
+.small_button, .small_button_off {
+    background-color: #333;
+    font-family: 'Teko', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 10%;
+    min-width: 100pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18pt;
+    margin: -2px auto;
+    cursor: pointer;
+}
+
+.small_button:hover, .small_button:focus {
+    background: #222;
+}
+
+.small_button_off {
+    background-color: #ddd;
+    color: #888;
+    border: 2px solid #888;
+    cursor: not-allowed;
+    margin: -4px auto;
+}
+.arrow {
+    width: 60%;
+    height: auto;
+}
+div.explanation_blurb_left {
+    vertical-align: top;
+    width: 37%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+div.explanation_blurb_right {
+    vertical-align: top;
+    width: 37%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+div.explanation_axis {
+    width: 20.9%;
+    vertical-align: top;
+}
+div.axis {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.bar {
+    height: 36pt;
+    line-height: 36pt;
+    padding: 8pt;
+    margin-top: 4pt;
+    margin-bottom: 4pt;
+    border-width: 4px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #222222;
+    background-color: #b99090;
+    display: block;
+    width: 50%;
+}
+div.text-wrapper {
+    font-family: 'Teko', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #222222;
+    display: inline-block;
+}
+div.white {
+    background-color: #ffffff;
+    text-align: left;
+    border-right-style: solid;
+}
+div.black {
+    background-color: #000;
+    text-align: right;
+    border-left-style: solid;
+}
+div.philosemitic {
+    background-color: #0b98a9;
+    text-align: left;
+    border-right-style: solid;
+}
+div.antisemitic {
+    background-color: #a90b0b;
+    text-align: right;
+    border-left-style: solid;
+}
+div.matriarchal {
+    background-color: #d51adc;
+    text-align: right;
+    border-left-style: solid;
+}
+div.patriarchal {
+    background-color: #231adc;
+    text-align: left;
+    border-right-style: solid;
+}
+div.xenomanic {
+    background-color: #a3a787;
+    text-align: right;
+    border-left-style: solid;
+}
+div.xenophobic {
+    background-color: #593000;
+    text-align: left;
+    border-right-style: solid;
+}
+div.homophilic {
+    background-color: #61a133;
+    text-align: right;
+    border-left-style: solid;
+}
+div.homophobic {
+    background-color: #9f4a43;
+    text-align: left;
+    border-right-style: solid;
+}
+div.transphobic {
+    background-color: #1e4a58;
+    text-align: left;
+    border-left-style: solid;
+}
+div.transphilic {
+    background-color: #7debff;
+    text-align: right;
+    border-left-style: solid;
+}
+div.pedophobic {
+    background-color: #dc761b;
+    text-align: left;
+    border-right-style: solid;
+}
+div.pedophilic {
+    background-color: #8670a1;
+    text-align: right;
+    border-left-style: solid;
+}
+div.anthropocentric {
+    background-color: #3c3b25;
+    text-align: left;
+    border-right-style: solid;
+}
+div.jainistic {
+    background-color: #fdbeff;
+    text-align: right;
+    border-left-style: solid;
+}
+div.lawful {
+    background-color: #6716b3;
+    text-align: left;
+    border-right-style: solid;
+}
+div.illegal {
+    background-color: #c0d066;
+    text-align: right;
+    border-left-style: solid;
+}
+div.ableist {
+    background-color: #c1c1c1;
+    text-align: left;
+    border-right-style: solid;
+}
+div.disableist {
+    background-color: #3e3e3e;
+    text-align: right;
+    border-left-style: solid;
+}
+div.tolerant {
+    background-color: #2ea06f;
+    text-align: right;
+    border-left-style: solid;
+}
+div.fanatical {
+    background-color: #f01a3e;
+    text-align: left;
+    border-right-style: solid;
+}
+div.antifurry {
+    background-color: #314f44;
+    text-align: right;
+    border-left-style: solid;
+}
+div.profurry {
+    background-color: #a15708;
+    text-align: left;
+    border-right-style: solid;
+}
+span.weight-300 {
+    font-weight: 300;
+}
+.explanation_bg {
+    background-color: #b99090;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+#banner {
+    border-color: #444444;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8pt;
+    display: block;
+    margin: 8pt;
+    margin-left: auto;
+    margin-right: auto;
+}

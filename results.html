@@ -1,0 +1,422 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,700|Mulish:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>Hate Values Results</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+</head>
+<script type="application/javascript" src="ideologies.js">
+</script>
+
+<body>
+<h1>Hate Values</h1>
+<hr>
+
+<h1>Results</h1>
+
+<h2><span class="weight-300" id="race-label"></span></h2>
+<div class="axis">
+    <img id="img-white" src="value_images/white.png" height="128pt"/>
+    <div class="bar white" id="bar-white"><div class="text-wrapper" id="white"></div></div>
+    <div class="bar black" id="bar-black"><div class="text-wrapper" id="black"></div></div>
+    <img id="img-black" src="value_images/black.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="jewish-label"></span></h2>
+<div class="axis">
+    <img id="img-philosemitic" src="value_images/philo semitic.png" height="128pt"/>
+    <div class="bar philosemitic" id="bar-philosemitic"><div class="text-wrapper" id="philosemitic"></div></div>
+    <div class="bar antisemitic" id="bar-antisemitic"><div class="text-wrapper" id="antisemitic"></div></div>
+    <img id="img-antisemitic" src="value_images/anti semitic.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="sex-label"></span></h2>
+<div class="axis">
+    <img id="img-patriarchal" src="value_images/patriarchal.png" height="128pt"/>
+    <div class="bar patriarchal" id="bar-patriarchal"><div class="text-wrapper" id="patriarchal"></div></div>
+    <div class="bar matriarchal" id="bar-matriarchal"><div class="text-wrapper" id="matriarchal"></div></div>
+    <img id="img-matriarchal" src="value_images/matriarchal.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="diversity-label"></span></h2>
+<div class="axis">
+    <img id="img-xenophobic" src="value_images/xenophobic.png" height="128pt"/>
+    <div class="bar xenophobic" id="bar-xenophobic"><div class="text-wrapper" id="xenophobic"></div></div>
+    <div class="bar xenomanic" id="bar-xenomanic"><div class="text-wrapper" id="xenomanic"></div></div>
+    <img id="img-xenomanic" src="value_images/xenomanic.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="sexuality-label"></span></h2>
+<div class="axis">
+    <img id="img-homophobic" src="value_images/homophobic.png" height="128pt"/>
+    <div class="bar homophobic" id="bar-homophobic"><div class="text-wrapper" id="homophobic"></div></div>
+    <div class="bar homophilic" id="bar-homophilic"><div class="text-wrapper" id="homophilic"></div></div>
+    <img id="img-homophilic" src="value_images/homophilic.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="transgender-label"></span></h2>
+<div class="axis">
+    <img id="img-transphobic" src="value_images/transphobic.png" height="128pt"/>
+    <div class="bar transphobic" id="bar-transphobic"><div class="text-wrapper" id="transphobic"></div></div>
+    <div class="bar transphilic" id="bar-transphilic"><div class="text-wrapper" id="transphilic"></div></div>
+    <img id="img-transphilic" src="value_images/transphilic.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="pedophilia-label"></span></h2>
+<div class="axis">
+    <img id="img-pedophobic" src="value_images/pedophobic.png" height="128pt"/>
+    <div class="bar pedophobic" id="bar-pedophobic"><div class="text-wrapper" id="pedophobic"></div></div>
+    <div class="bar pedophilic" id="bar-pedophilic"><div class="text-wrapper" id="pedophilic"></div></div>
+    <img id="img-pedophilic" src="value_images/pedophilic.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="species-label"></span></h2>
+<div class="axis">
+    <img id="img-anthropocentric" src="value_images/anthropocentric.png" height="128pt"/>
+    <div class="bar anthropocentric" id="bar-anthropocentric"><div class="text-wrapper" id="anthropocentric"></div></div>
+    <div class="bar jainistic" id="bar-jainistic"><div class="text-wrapper" id="jainistic"></div></div>
+    <img id="img-jainistic" src="value_images/jainistic.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="legality-label"></span></h2>
+<div class="axis">
+    <img id="img-lawful" src="value_images/lawful.png" height="128pt"/>
+    <div class="bar lawful" id="bar-lawful"><div class="text-wrapper" id="lawful"></div></div>
+    <div class="bar illegal" id="bar-illegal"><div class="text-wrapper" id="illegal"></div></div>
+    <img id="img-illegal" src="value_images/illegal.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="disability-label"></span></h2>
+<div class="axis">
+    <img id="img-ableist" src="value_images/ableist.png" height="128pt"/>
+    <div class="bar ableist" id="bar-ableist"><div class="text-wrapper" id="ableist"></div></div>
+    <div class="bar disableist" id="bar-disableist"><div class="text-wrapper" id="disableist"></div></div>
+    <img id="img-disableist" src="value_images/disableist.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="tolerance-label"></span></h2>
+<div class="axis">
+    <img id="img-fanatical" src="value_images/fanatical.png" height="128pt"/>
+    <div class="bar fanatical" id="bar-fanatical"><div class="text-wrapper" id="fanatical"></div></div>
+    <div class="bar tolerant" id="bar-tolerant"><div class="text-wrapper" id="tolerant"></div></div>
+    <img id="img-tolerant" src="value_images/tolerant.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="furry-label"></span></h2>
+<div class="axis">
+    <img id="img-profurry" src="value_images/pro furry.png" height="128pt"/>
+    <div class="bar profurry" id="bar-profurry"><div class="text-wrapper" id="profurry"></div></div>
+    <div class="bar antifurry" id="bar-antifurry"><div class="text-wrapper" id="antifurry"></div></div>
+    <img id="img-antifurry" src="value_images/anti furry.png" height="128pt"/>
+</div>
+
+<br><br>
+
+<h2 class="ideology">Closest Match: <span class="weight-300" id="ideology-label"></span></h1>
+
+<br><br>
+
+<canvas id="banner" width=800 height=1560 style="font-family:Teko"></canvas>
+<button class="button" onclick="location.href='index.html';" style="background-color: #333;">Back</button> <br>
+<script>
+    function getQueryVariable(variable)
+    {
+           var query = window.location.search.substring(1)
+           var vars = query.split("&")
+           for (var i=0;i<vars.length;i++) {
+                   var pair = vars[i].split("=")
+                   if(pair[0] == variable) {return pair[1]}
+           }
+           return(NaN);
+    }
+
+    function setBarValue(name, value) {
+        innerel = document.getElementById(name)
+        outerel = document.getElementById("bar-" + name)
+        outerel.style.width = (value + "%")
+        innerel.innerHTML = (value + "%")
+        if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
+            innerel.style.visibility = "hidden"
+        }
+    }
+
+    raceArray = ["White Supremacist","White Nationalist","White Identitarian","White Bias","Colourblind","Black Bias","Black Identitarian","Black Nationalist","Black Supremacist"]
+    jewiArray = ["Extremely Anti-Semitic","Anti-Semite","Judeophobe","Gentile","Jew-Gentile Equality","Jewish Bias","Zionist","Ethno-Zionist","Fanatical Ethno-Zionist"]
+    ssexArray = ["Incelocracy","Male Chauvinist","Misognyist","Traditional","Sexual Equality","Liberal","Misandrist","Radical Feminist","Male Extinctionist"]
+    diveArray = ["Genocidal Ethno-Nationalist","Ethno-Nationalist","Xenophobe","Nationalist","Nationality Equality","Multiculturalist","Xenophile","Globalist","Mandatory Racemixing"]
+    sexuArray = ["Homo-Extinctionist","Hetero-Supremacist","Don't Ask, Don't Tell","'Traditional Marriage' Activist","Sexuality Equality","'Marriage Equality' Activist","Pride Marcher","Homo-Supremacist","Hetero-Extinctionist"]
+    tranArray = ["Transgender Holocaust","Transgender Suicide Advocate","Transphobe","Binarist","Gender Equality","Transgender Acceptance","Pride Marcher","Child Drag Queen Fan","TERF Holocaust"]
+    pedoArray = ["Pedocidal Serial Killer","Very Pedophobic","Pedophobic","Age of Consent Supporter","Sexuality Equality","MAP advocate","Purple Libertarian","Child Molester","Child Rapist"]
+    specArray = ["Animal Extinctionist","Animal Hater","Human Supremacist","Human Preferance","Neutral","Animal Rights Activist","Animal Rights Supporter","Vegan Fanatic","Animal Rights Terrorism"]
+    legaArray = ["'Two Eyes for an Eye'","Torture Supporter","Moralist","Punishment","Moderate","Rehabilitation","Criminal","Moral Relativist","Anarchist"]
+    disaArray = ["Eugenicist","Cripple Hater","Disabled-Hater","Ableist Preferance","Balanced","Disabled Advocate","Disabled Pride","Disabled Supremacist","Mandatory Disabilities"]
+    toleArray = ["Free Speech Absolutism","Intellectually Diverse","Accepting","Tolerant","Neutral","Stubborn","Prejudicial","Monolithic","Extremely Hateful"]
+    furrArray = ["Furred Reich","Beastiality Enjoyer","Furry","Furry Ally","Neutral","Furphobic Prejudice","Anti-Furry","Extremely Furphobic","Furry Holocaust"]
+
+    function setLabel(val,ary) {
+        if (val >= 99) { return ary[0] } else
+        if (val >= 80) { return ary[1] } else
+        if (val >= 70) { return ary[2] } else
+        if (val >= 60) { return ary[3] } else
+        if (val >= 50) { return ary[4] } else
+        if (val >= 40) { return ary[5] } else
+        if (val >= 30) { return ary[6] } else
+        if (val >= 20) { return ary[7] } else
+        if (val >= 10) { return ary[8] } else
+        	{return ""}
+    }
+
+    white           = getQueryVariable("a")
+    antisemitic    = getQueryVariable("b")
+    patriarchal     = getQueryVariable("c")
+    xenophobic      = getQueryVariable("d")
+    homophobic      = getQueryVariable("e")
+    transphobic     = getQueryVariable("f")
+    pedophobic      = getQueryVariable("g")
+    anthropocentric = getQueryVariable("h")
+    lawful          = getQueryVariable("i")
+    ableist         = getQueryVariable("j")
+    tolerant        = getQueryVariable("k")
+    profurry       = getQueryVariable("l")
+    black         = (100 - white).toFixed(1)
+    philosemitic  = (100 - antisemitic).toFixed(1)
+    matriarchal   = (100 - patriarchal).toFixed(1)
+    xenomanic     = (100 - xenophobic).toFixed(1)
+    homophilic    = (100 - homophobic).toFixed(1)
+    transphilic   = (100 - transphobic).toFixed(1)
+    pedophilic    = (100 - pedophobic).toFixed(1)
+    jainistic     = (100 - anthropocentric).toFixed(1)
+    illegal       = (100 - lawful).toFixed(1)
+    disableist    = (100 - ableist).toFixed(1)
+    fanatical     = (100 - tolerant).toFixed(1)
+    antifurry     = (100 - profurry).toFixed(1)
+
+    setBarValue("white", white)
+    setBarValue("black", black)
+    setBarValue("antisemitic", antisemitic)
+    setBarValue("philosemitic", philosemitic)
+    setBarValue("patriarchal", patriarchal)
+    setBarValue("matriarchal", matriarchal)
+    setBarValue("xenophobic", xenophobic)
+    setBarValue("xenomanic", xenomanic)
+    setBarValue("homophobic", homophobic)
+    setBarValue("homophilic", homophilic)
+    setBarValue("transphobic", transphobic)
+    setBarValue("transphilic", transphilic)
+    setBarValue("pedophobic", pedophobic)
+    setBarValue("pedophilic", pedophilic)
+    setBarValue("anthropocentric", anthropocentric)
+    setBarValue("jainistic", jainistic)
+    setBarValue("lawful", lawful)
+    setBarValue("illegal", illegal)
+    setBarValue("ableist", ableist)
+    setBarValue("disableist", disableist)
+    setBarValue("tolerant", tolerant)
+    setBarValue("fanatical", fanatical)
+    setBarValue("profurry", profurry)
+    setBarValue("antifurry", antifurry)
+    
+
+    document.getElementById("race-label").innerHTML = setLabel(white, raceArray)
+    document.getElementById("jewish-label").innerHTML = setLabel(antisemitic, jewiArray)
+    document.getElementById("sex-label").innerHTML = setLabel(patriarchal, ssexArray)
+    document.getElementById("diversity-label").innerHTML = setLabel(xenophobic, diveArray)
+    document.getElementById("sexuality-label").innerHTML = setLabel(homophobic, sexuArray)
+    document.getElementById("transgender-label").innerHTML = setLabel(transphobic, tranArray)
+    document.getElementById("pedophilia-label").innerHTML = setLabel(pedophobic, pedoArray)
+    document.getElementById("species-label").innerHTML = setLabel(anthropocentric, specArray)
+    document.getElementById("legality-label").innerHTML = setLabel(lawful, legaArray)
+    document.getElementById("disability-label").innerHTML = setLabel(ableist, disaArray)
+    document.getElementById("tolerance-label").innerHTML = setLabel(tolerant, toleArray)
+    document.getElementById("furry-label").innerHTML = setLabel(profurry, furrArray)
+
+    ideology = ""
+    ideodist = Infinity
+    for (var i = 0; i < ideologies.length; i++) {
+        dist = 0
+        dist += Math.pow(Math.abs(ideologies[i].stats.race - white), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.jewi - antisemitic), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.ssex - patriarchal), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dive - xenophobic), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.sexu - homophobic), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.tran - transphobic), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.pedo - pedophobic), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.spec - anthropocentric), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.lega - lawful), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.disa - ableist), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.tole - tolerant), 3)
+        dist += Math.pow(Math.abs(ideologies[i].stats.furr - profurry), 2)
+        if (dist < ideodist) {
+            ideology = ideologies[i].name
+            ideodist = dist
+        }
+    }
+    
+    document.getElementById("ideology-label").innerHTML = ideology
+
+    function createImage(src, x, y, w, h) {
+        img = new Image ()
+        img.src = src
+        img.onLoad = function() {
+            ctx.drawImage(img, x, y, w, h)
+        }
+    }
+
+    window.onload = function() {
+        var c = document.getElementById("banner")
+        var ctx = c.getContext("2d")
+        ctx.fillStyle = "#777"
+        ctx.fillRect(0,0,800,1560)
+
+        img = document.getElementById("img-white")
+        ctx.drawImage(img, 20, 120, 100, 100);
+        img = document.getElementById("img-black")
+        ctx.drawImage(img, 680, 120, 100, 100)
+        img = document.getElementById("img-antisemitic")
+        ctx.drawImage(img, 20, 240, 100, 100)
+        img = document.getElementById("img-philosemitic")
+        ctx.drawImage(img, 680, 240, 100, 100)
+        img = document.getElementById("img-patriarchal")
+        ctx.drawImage(img, 20, 360, 100, 100)
+        img = document.getElementById("img-matriarchal")
+        ctx.drawImage(img, 680, 360, 100, 100)
+        img = document.getElementById("img-xenophobic")
+        ctx.drawImage(img, 20, 480, 100, 100)
+        img = document.getElementById("img-xenomanic")
+        ctx.drawImage(img, 680, 480, 100, 100)
+        img = document.getElementById("img-homophobic")
+        ctx.drawImage(img, 20, 600, 100, 100)
+        img = document.getElementById("img-homophilic")
+        ctx.drawImage(img, 680, 600, 100, 100)
+        img = document.getElementById("img-transphobic")
+        ctx.drawImage(img, 20, 720, 100, 100)
+        img = document.getElementById("img-transphilic")
+        ctx.drawImage(img, 680, 720, 100, 100)
+        img = document.getElementById("img-pedophobic")
+        ctx.drawImage(img, 20, 840, 100, 100)
+        img = document.getElementById("img-pedophilic")
+        ctx.drawImage(img, 680, 840, 100, 100)
+        img = document.getElementById("img-anthropocentric")
+        ctx.drawImage(img, 20, 960, 100, 100)
+        img = document.getElementById("img-jainistic")
+        ctx.drawImage(img, 680, 960, 100, 100)
+        img = document.getElementById("img-lawful")
+        ctx.drawImage(img, 20, 1080, 100, 100)
+        img = document.getElementById("img-illegal")
+        ctx.drawImage(img, 680, 1080, 100, 100)
+        img = document.getElementById("img-ableist")
+        ctx.drawImage(img, 20, 1200, 100, 100)
+        img = document.getElementById("img-disableist")
+        ctx.drawImage(img, 680, 1200, 100, 100)
+        img = document.getElementById("img-tolerant")
+        ctx.drawImage(img, 20, 1320, 100, 100)
+        img = document.getElementById("img-fanatical")
+        ctx.drawImage(img, 680, 1320, 100, 100)
+        img = document.getElementById("img-profurry")
+        ctx.drawImage(img, 20, 1440, 100, 100)
+        img = document.getElementById("img-antifurry")
+        ctx.drawImage(img, 680, 1440, 100, 100)
+
+        ctx.fillStyle="#222"
+        ctx.fillRect(120, 130, 560, 80)
+        ctx.fillRect(120, 250, 560, 80)
+        ctx.fillRect(120, 370, 560, 80)
+        ctx.fillRect(120, 490, 560, 80)
+        ctx.fillRect(120, 610, 560, 80)
+        ctx.fillRect(120, 730, 560, 80)
+        ctx.fillRect(120, 850, 560, 80)
+        ctx.fillRect(120, 970, 560, 80)
+        ctx.fillRect(120, 1090, 560, 80)
+        ctx.fillRect(120, 1210, 560, 80)
+        ctx.fillRect(120, 1330, 560, 80)
+        ctx.fillRect(120, 1450, 560, 80)
+        ctx.fillStyle="#fff"
+        ctx.fillRect(120, 134, 5.6*white-2, 72)
+        ctx.fillStyle="#000"
+        ctx.fillRect(682-5.6*black, 134, 5.6*black-2, 72)
+        ctx.fillStyle="#a90b0b"
+        ctx.fillRect(120, 254, 5.6*antisemitic-2, 72)
+        ctx.fillStyle="#0b98a9"
+        ctx.fillRect(682-5.6*philosemitic, 254, 5.6*philosemitic-2, 72)
+        ctx.fillStyle="#231adc"
+        ctx.fillRect(120, 374, 5.6*patriarchal-2, 72)
+        ctx.fillStyle="#d51adc"
+        ctx.fillRect(682-5.6*matriarchal, 374, 5.6*matriarchal-2, 72)
+        ctx.fillStyle="#593000" 
+        ctx.fillRect(120, 494, 5.6*xenophobic-2, 72)
+        ctx.fillStyle="#a3a787"
+        ctx.fillRect(682-5.6*xenomanic, 494, 5.6*xenomanic-2, 72)
+        ctx.fillStyle="#9f4a43"
+        ctx.fillRect(120, 614, 5.6*homophobic-2, 72)
+        ctx.fillStyle="#61a133"
+        ctx.fillRect(682-5.6*homophilic, 614, 5.6*homophilic-2, 72)
+        ctx.fillStyle="#1e4a58"
+        ctx.fillRect(120, 734, 5.6*transphobic-2, 72)
+        ctx.fillStyle="#7debff"
+        ctx.fillRect(682-5.6*transphilic, 734, 5.6*transphilic-2, 72)
+        ctx.fillStyle="#dc761b"
+        ctx.fillRect(120, 854, 5.6*pedophobic-2, 72)
+        ctx.fillStyle="#8670a1"
+        ctx.fillRect(682-5.6*pedophilic, 854, 5.6*pedophilic-2, 72)
+        ctx.fillStyle="#3c3b25" 
+        ctx.fillRect(120, 974, 5.6*anthropocentric-2, 72)
+        ctx.fillStyle="#fdbeff"
+        ctx.fillRect(682-5.6*jainistic, 974, 5.6*jainistic-2, 72)
+        ctx.fillStyle="#6716b3"
+        ctx.fillRect(120, 1094, 5.6*lawful-2, 72)
+        ctx.fillStyle="#c0d066" 
+        ctx.fillRect(682-5.6*illegal, 1094, 5.6*illegal-2, 72)
+        ctx.fillStyle="#c1c1c1"
+        ctx.fillRect(120, 1214, 5.6*ableist-2, 72)
+        ctx.fillStyle="#3e3e3e"
+        ctx.fillRect(682-5.6*disableist, 1214, 5.6*disableist-2, 72)
+        ctx.fillStyle="#2ea06f" 
+        ctx.fillRect(120, 1334, 5.6*tolerant-2, 72)
+        ctx.fillStyle="#f01a3e"
+        ctx.fillRect(682-5.6*fanatical, 1334, 5.6*fanatical-2, 72)
+        ctx.fillStyle="#a15708"
+        ctx.fillRect(120, 1454, 5.6*profurry-2, 72)
+        ctx.fillStyle="#314f44" 
+        ctx.fillRect(682-5.6*antifurry, 1454, 5.6*antifurry-2, 72)
+        ctx.fillStyle="#000"
+        ctx.font="700 60px Teko"
+        ctx.textAlign="center"
+        ctx.fillText("Hate Values", 400, 65)
+        ctx.font="40px Teko"
+        ctx.textAlign="center"
+
+        ctx.font="40px Arial"
+        ctx.textAlign="left"
+        if (white > 20) {ctx.fillText(white + "%", 130, 187.5)}
+        if (antisemitic > 20) {ctx.fillText(antisemitic + "%", 130, 307.5)}
+        if (patriarchal > 20) {ctx.fillText(patriarchal + "%", 130, 427.5)}
+        if (xenophobic > 20) {ctx.fillText(xenophobic + "%", 130, 547.5)}
+        if (homophobic > 20) {ctx.fillText(homophobic + "%", 130, 667.5)}
+        if (transphobic > 20) {ctx.fillText(transphobic + "%", 130, 787.5)}
+        if (pedophobic  > 20) {ctx.fillText(pedophobic + "%", 130, 907.5)}
+        if (anthropocentric > 20) {ctx.fillText(anthropocentric + "%", 130, 1027.5)}
+        if (lawful  > 20) {ctx.fillText(lawful + "%", 130, 1147.5)}
+        if (ableist  > 20) {ctx.fillText(ableist + "%", 130, 1267.5)}
+        if (tolerant > 20) {ctx.fillText(tolerant + "%", 130, 1387.5)}
+        if (profurry  > 20) {ctx.fillText(profurry + "%", 130, 1507.5)}
+        ctx.textAlign="right"
+        if (black    > 20) {ctx.fillText(black + "%", 670, 187.5)}
+        if (philosemitic     > 20) {ctx.fillText(philosemitic + "%", 670, 307.5)}
+        if (matriarchal > 20) {ctx.fillText(matriarchal + "%", 670, 427.5)}
+        if (xenomanic  > 20) {ctx.fillText(xenomanic + "%", 670, 547.5)}
+        if (homophilic    > 20) {ctx.fillText(homophilic + "%", 670, 667.5)}
+        if (transphilic     > 20) {ctx.fillText(transphilic + "%", 670, 787.5)}
+        if (pedophilic > 20) {ctx.fillText(pedophilic + "%", 670, 907.5)}
+        if (jainistic  > 20) {ctx.fillText(jainistic + "%", 670, 1027.5)}
+        if (illegal  > 20) {ctx.fillText(illegal + "%", 670, 1147.5)}
+        if (disableist > 20) {ctx.fillText(disableist + "%", 670, 1267.5)}
+        if (fanatical  > 20) {ctx.fillText(fanatical + "%", 670, 1387.5)}
+        if (antifurry  > 20) {ctx.fillText(antifurry + "%", 670, 1507.5)}
+
+        ctx.font="300 30px Teko"
+        ctx.textAlign="center"
+        ctx.fillText(document.getElementById("race-label").innerHTML, 400, 125)
+        ctx.fillText(document.getElementById("jewish-label").innerHTML, 400, 245)
+        ctx.fillText(document.getElementById("sex-label").innerHTML, 400, 365)
+        ctx.fillText(document.getElementById("diversity-label").innerHTML, 400, 485)
+        ctx.fillText(document.getElementById("sexuality-label").innerHTML, 400, 605)
+        ctx.fillText(document.getElementById("transgender-label").innerHTML, 400, 725)
+        ctx.fillText(document.getElementById("pedophilia-label").innerHTML, 400, 845)
+        ctx.fillText(document.getElementById("species-label").innerHTML, 400, 965)
+        ctx.fillText(document.getElementById("legality-label").innerHTML, 400, 1085)
+        ctx.fillText(document.getElementById("disability-label").innerHTML, 400, 1205)
+        ctx.fillText(document.getElementById("tolerance-label").innerHTML, 400, 1325)
+        ctx.fillText(document.getElementById("furry-label").innerHTML, 400, 1445)
+    }
+    </script>
+</body>

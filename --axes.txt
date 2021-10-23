@@ -1,0 +1,255 @@
+    white           = getQueryVariable("a")
+    antisemitic    = getQueryVariable("b")
+    patriarchal     = getQueryVariable("c")
+    xenophobic      = getQueryVariable("d")
+    homophobic      = getQueryVariable("e")
+    transphobic     = getQueryVariable("f")
+    pedophobic      = getQueryVariable("g")
+    anthropocentric = getQueryVariable("h")
+    lawful          = getQueryVariable("i")
+    ableist         = getQueryVariable("j")
+    tolerant        = getQueryVariable("k")
+    profurry       = getQueryVariable("l")
+	
+    black         
+    philosemitic 
+    matriarchal   
+    xenomanic    
+    homophilic   
+    transphilic  
+    pedophilic    
+    jainistic    
+    illegal     
+    disableist  
+    fanatical   
+    antifurry    
+	
+	race Array = ["White Fanatic","White Nationalist","White Identitarian","White Bias","Colourblind","Black Bias","Black Identitarian","Black Nationalist","Black Supremacist"]
+    jewi Array = ["SS Sleeper Cell","Anti-Semite","Judeophobe","Gentile","Egalitarian","Jewish Bias","Zionist","Ethno-Zionist","Fanatical Ethno-Zionist"]
+    ssex Array = ["Incelocracy","Male Chauvinist","Misognyist","Traditional","Egalitarian","Liberal","Misandrist","Radical Feminist","Male Extinctionist"]
+    dive Array = ["Mandatory Racemixing","Globalist","Xenophile","Multiculturalist","Neutral","Nationalist","Xenophobe","Ethno-Nationalist","Genocidal Ethno-Nationalist"]
+    sexu Array = ["Homo-Extinctionist","Hetero-Supremacist","Don't Ask, Don't Tell","'Traditional Marriage' Activist","Sexuality Equality","'Marriage Equality' Activist","Pride Marcher","Homo-Supremacist","Hetero-Extinctionist"]
+    tran Array = ["TERF Holocaust","Child Drag Queen Fan","Pride Marcher","Transgender Acceptance","Neutral","Binarist","Transphobe","Trans Suicide Advocate","Trans Holocaust"]
+    pedo Array = ["Pedocidal Serial Killer","Very Pedophobic","Pedophobic","Age of Consent Supporter","Neutral","MAP advocate","Purple Libertarian","Child Molester","Child Serial Rapist"]
+    spec Array = ["Animal Rights Terrorism","Vegan Fanatic","Animal Rights Activist","Animal Rights Supporter","Neutral","Human Preferance","Human Supremacist","Animal Hater","Animal Extinctionist"]
+    lega Array = ["'Two Eyes for an Eye'","Torture Supporter","Moralist","Punishment","Moderate","Rehabilitation","Criminal","Moral Relativist","Anarchist"]
+    disa Array = ["Mandatory Disabilities","Disabled Supremacist","Disabled Pride","Disabled Advocate","Balanced","Non-Disabled Preferance","Disabled-Hater","Cripple Hater","Eugenicist"]
+    tole Array = ["Free Speech Absolutism","Intellectually Diverse","Accepting","Tolerant","Neutral","Stubborn","Prejudicial","Monolithic","Extremely Hateful"]
+    furr Array = ["Furry Holocaust","Extremely Furphobic","Anti-Furry","Furphobic Prejudice","Neutral","Furry Ally","Furry","Beastiality Enjoyer","Furred Reich"]
+
+                <p class="value"><b style="color:#dac6c6;">White</b></p>
+                <p class="blurb-text">
+                    Those with higher White scores believe that white people are more advanced, civilised, efficient and productive than other races. They tend to support a disriminatory immigration system, miscegenation laws, segregation and at high values, apartheid, ethnic cleansing and genocide.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Race</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#000000;">Black</b></p>
+                <p class="blurb-text">
+                    Those with higher Black scores believe that black people are more human, civilised, empathetic and productive than other races. They tend to support mass immigration, particularly from Africa, miscegenation laws, affirmative action for blacks and at high values, reverse apartheid, ethnic cleansing and genocide.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#0b98a9;">Philo-Semitic</b></p>
+                <p class="blurb-text">
+                    Those with higher Philo-Semitic scores believe that Jewish people are, at low scores, equal to other peoples and at high scores, inherently superior to other races, particularly Arab Muslims. They tend to support Zionism, censorship of Holocaust denial and at high values, a massive expansion of Israel that involves ethnic cleansing and genocide.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Jewish</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#a90b0b;">Anti-Semitic</b></p>
+                <p class="blurb-text">
+                    Those with higher Anti-Semitic scores believe that Jewish people are evil and manipulate governments. They tend to be conspiratorial, Holocaust deniers and at high values, advocate for expulsion and genocide of Jews.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#231adc;">Patriarchal</b></p>
+                <p class="blurb-text">
+                    Those with higher Patriarchal scores believe that men have more political and economic power than women. They tend to support traditional families and oppose women's suffrage and women working. At extreme values they may advocate for women to be stripped of all rights or, as seem in some countries, force to completely cover themselves.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Sex</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#d51adc;">Matriarchal</b></p>
+                <p class="blurb-text">
+                    Those with higher Matriarchal scores believe in women's empowerment. They tend to support affirmative action for women, radical feminism, destruction of the traditional family structure and at high values, repression of masculinity.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#593000;">Xenophobic</b></p>
+                <p class="blurb-text">
+                    Those with higher Xenophobic scores believe in the preservation of their own culture and the superiority of their nation over others. At high values they may support closed borders, expulsion of all foreigners and racial homogeneity.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Diversity</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#a3a787;">Xenomanic</b></p>
+                <p class="blurb-text">
+                    Those with higher Xenomanic scores believe in racial diversity and immigration. They typically believe that cultures will always enrich eachother, and support policies that benefit immigrants. At high values they may support open borders and mandatory racemixing.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#9f4a43;">Homophobic</b></p>
+                <p class="blurb-text">
+                    Those with higher Homophobic scores believe in traditional marriage and have a moral preferance for heterosexuality. At high values they may support the death penalty for sodomy, violent repression of homosexual pride marches and the inherent superiority of hetersexual people.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Sexuality</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#61a133;">Homophilic</b></p>
+                <p class="blurb-text">
+                    Those with higher Homophilic scores believe in same-sex marriage and equality between homosexuals and heterosexuals. They typically support pride marches and support policies that benefit homosexuals. At high values they may support homosexual supremacy and exhibit extreme prejudice towards heterosexual people.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#1e4a58;">Transphobic</b></p>
+                <p class="blurb-text">
+                    Those with higher Transphobic scores believe that there are only men and women and that every is born a male or female. At high values they may support laws that ban and repress crossdressing, strict penalties for 'transition' surgeries and may encourage transgenders to commit suicide.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Transgender</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#7debff;">Transphilic</b></p>
+                <p class="blurb-text">
+                    Those with higher Transphilic scores believe that there are more than two genders and that people are not born male or female. They typically spend much of their spare time on twitter, and support policies that benefit transgenders. At high values they may support bans on 'deadnaming' and 'misgendering'.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#dc761b;">Pedophobic</b></p>
+                <p class="blurb-text">
+                    Those with higher Pedophobic scores believe in consent laws and strict penalties for serious violation. At high values they may support brutal death sentances for pedophilia and exhibit extreme hatred and prejudice against pedophiles.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Pedophilia</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#8670a1;">Pedophilic</b></p>
+                <p class="blurb-text">
+                    Those with higher Pedophilic scores believe in lighter consent laws and the legalisation of pederasty. They themsevles are typically attracted to children or adolescants themsevles, and, at high values, they may support absolute abolition of all restrictions relating to sexual relations with children.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#3c3b25;">Anthropocentric</b></p>
+                <p class="blurb-text">
+                    Those with higher Anthropocentric scores believe that productivity and efficiency are more important than animal rights. At high values they may support total abolition of animal rights and exhibit extreme hatred of animals.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Species</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#fdbeff;">Jainistic</b></p>
+                <p class="blurb-text">
+                    Those with higher Jainistic scores believe in animal rights and veganism. They believe that animals are intrinsically valuable, and, at high values, may support human-animal equality and extreme punishments for violence against animals.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#6716b3;">Lawful</b></p>
+                <p class="blurb-text">
+                    Those with higher Lawful scores believe in strict morality, law and order. At high values they may support corporal punishment against criminals, punishments considered 'cruel and unusual', and a moralistic society.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Legality</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#c0d066;">Illegal</b></p>
+                <p class="blurb-text">
+                    Those with higher Illegal scores believe in soft-handed laws, if any, and moral liberty. At high values they may support anarchy, abolition of prisons and moral relativism.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#c1c1c1;">Ableist</b></p>
+                <p class="blurb-text">
+                    Those with higher Ableist scores typically are ambivalent towards concerns of mistreatment of disabled people. At high values they may support eugenics and prohibition of breading for disabled people.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Disability</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#3e3e3e;">Disableist</b></p>
+                <p class="blurb-text">
+                    Those with higher Disableist scores believe in pro-disabled activism. At high values they may support banning offensive words such as retard and cripple.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#f01a3e;">Fanatical</b></p>
+                <p class="blurb-text">
+                    Those with higher Fanatical scores believe strongly in their own superiority. At high values they may support intellectual homogeneity and exhibit narcissistic personality traits.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Tolerance</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#2ea06f;">Tolerant</b></p>
+                <p class="blurb-text">
+                    Those with higher Tolerant scores believe in acceptance of intellectual diversity. At high values they may support moral relativism, free speech absolutism and diversity above all else.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#a15708;">Pro-Furry</b></p>
+                <p class="blurb-text">
+                    Those with higher Pro-Furry scores believe that furries are valid and may themselves enjoy dressing as animals. At high values they may support furry supremacism and legalisation of beastiality.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">Furry</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#314f44;">Anti-Furry</b></p>
+                <p class="blurb-text">
+                    Those with higher Anti-Furry scores are typically disgusted or disturbed by furries. They typically believe that furries are mentally ill, disgusting and dangerous around children. At high values they may support genocide of the furries.
+                </p>
+            </div>
+        </div>
+        <br/>
+    </div>
