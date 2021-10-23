@@ -144,15 +144,15 @@
     furrArray = ["Furred Reich","Beastiality Enjoyer","Furry","Furry Ally","Neutral","Furphobic Prejudice","Anti-Furry","Extremely Furphobic","Furry Holocaust"]
 
     function setLabel(val,ary) {
-        if (val = 95) { return ary[0] } else
+        if (val >= 95) { return ary[0] } else
         if (val >= 85) { return ary[1] } else
         if (val >= 72) { return ary[2] } else
         if (val >= 61) { return ary[3] } else
         if (val >= 50) { return ary[4] } else
-        if (val >= 39) { return ary[5] } else
-        if (val >= 28) { return ary[6] } else
-        if (val >= 15) { return ary[7] } else
-        if (val >= 5) { return ary[8] } else
+        if (val > 39) { return ary[5] } else
+        if (val > 28) { return ary[6] } else
+        if (val > 15) { return ary[7] } else
+        if (val > 5) { return ary[8] } else
         	{return ""}
     }
 
