@@ -2771,6 +2771,125 @@ questions = [
         }
     },
     {
+        "question": "People who have evil beliefs should be discriminated against.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": -20,
+            "l": 0
+        }
+    },
+    {
+        "question": "Prejudice against certain religious or cultural beliefs/practices is acceptable.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": -15,
+            "l": 0
+        }
+    },
+    {
+        "question": "The rulling authority should impose true beliefs on people.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": -20,
+            "l": 0
+        }
+    },
+    {
+        "question": "Nobody has a right to be wrong.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": -20,
+            "l": 0
+        }
+    },
+    {
+        "question": "Discrimination against certain groups should be allowed.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": -20,
+            "l": 0
+        }
+    },
+    {
+        "question": "Discrimination against certain groups should be encouraged.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": -20,
+            "l": 0
+        }
+    },
+    {
+        "question": "Discrimination against certain groups should be enforced.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": -20,
+            "l": 0
+        }
+    },
+    {
         "question": "Furries are superior to normal people.",
         "effect": {
             "a": 0,
