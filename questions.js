@@ -1088,7 +1088,7 @@ questions = [
         }
     },
     {
-        "question": "Hetersexuals are superior to Homosexuals.",
+        "question": "Heterosexuals are superior to Homosexuals.",
         "effect": {
             "a": 0,
             "b": 0,
