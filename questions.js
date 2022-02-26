@@ -2732,7 +2732,75 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": 20,
+            "k": 60,
+            "l": 0
+        }
+    },
+    {
+        "question": "Intellectual diversity is a good thing.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 45,
+            "l": 0
+        }
+    },
+    {
+        "question": "We must strive for intellectual diversity.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 45,
+            "l": 0
+        }
+    },
+    {
+        "question": "Racial and sexual diversity are good thing.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 45,
+            "l": 0
+        }
+    },
+    {
+        "question": "We must strive for racial and sexual diversity.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 45,
             "l": 0
         }
     },
@@ -2749,12 +2817,12 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": 10,
+            "k": 45,
             "l": 0
         }
     },
     {
-        "question": "The people who I disagree with most should always have the right to express their opinion.",
+        "question": "The people who I disagree with should always have the right to express their opinion.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -2766,7 +2834,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": 15,
+            "k": 75,
             "l": 0
         }
     },
@@ -2783,7 +2851,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -20,
+            "k": -90,
             "l": 0
         }
     },
@@ -2800,7 +2868,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": -45,
             "l": 0
         }
     },
@@ -2817,7 +2885,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -20,
+            "k": -90,
             "l": 0
         }
     },
@@ -2834,7 +2902,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -20,
+            "k": -75,
             "l": 0
         }
     },
@@ -2851,7 +2919,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -20,
+            "k": -30,
             "l": 0
         }
     },
@@ -2868,7 +2936,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -20,
+            "k": -60,
             "l": 0
         }
     },
@@ -2885,7 +2953,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -20,
+            "k": -120,
             "l": 0
         }
     },
