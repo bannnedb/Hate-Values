@@ -19,7 +19,7 @@ questions = [
     {
         "question": "Genocide and eugenics with the intention of removing blacks from the nation or the world is a good idea.",
         "effect": {
-            "a": 15,
+            "a": 7.5,
             "b": 0,
             "c": 0,
             "d": 0,
@@ -29,7 +29,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -155,7 +155,7 @@ questions = [
     {
         "question": "Genocide and eugenics with the intention of removing whites from the nation or the world is a good idea.",
         "effect": {
-            "a": -15,
+            "a": -7.5,
             "b": 0,
             "c": 0,
             "d": 0,
@@ -165,7 +165,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -292,7 +292,7 @@ questions = [
         "question": "Genocide and eugenics with the intention of removing non-Jews from Israel is a good idea.",
         "effect": {
             "a": 0,
-            "b": -15,
+            "b": -7.5,
             "c": 0,
             "d": 0,
             "e": 0,
@@ -301,7 +301,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -428,7 +428,7 @@ questions = [
         "question": "Genocide and eugenics with the intention of removing Jews from the nation or the world is a good idea.",
         "effect": {
             "a": 0,
-            "b": 15,
+            "b": 7.5,
             "c": 0,
             "d": 0,
             "e": 0,
@@ -565,7 +565,7 @@ questions = [
         "effect": {
             "a": 0,
             "b": 0,
-            "c": 15,
+            "c": 7.5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -573,7 +573,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -701,7 +701,7 @@ questions = [
         "effect": {
             "a": 0,
             "b": 0,
-            "c": -15,
+            "c": -7.5,
             "d": 0,
             "e": 0,
             "f": 0,
@@ -709,7 +709,7 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -799,23 +799,6 @@ questions = [
         }
     },
     {
-        "question": "I agree with the principles of intersectionality.",
-        "effect": {
-            "a": -10,
-            "b": -10,
-            "c": -10,
-            "d": -10,
-            "e": -10,
-            "f": -10,
-            "g": 0,
-            "h": -5,
-            "i": -10,
-            "j": -10,
-            "k": 0,
-            "l": 5
-        }
-    },
-    {
         "question": "People who live in my country are superior to foreigners.",
         "effect": {
             "a": 0,
@@ -838,14 +821,14 @@ questions = [
             "a": 0,
             "b": 0,
             "c": 0,
-            "d": 15,
+            "d": 7.5,
             "e": 0,
             "f": 0,
             "g": 0,
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -1111,13 +1094,13 @@ questions = [
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": 15,
+            "e": 7.5,
             "f": 0,
             "g": 0,
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -1247,13 +1230,13 @@ questions = [
             "b": 0,
             "c": 0,
             "d": 0,
-            "e": -15,
+            "e": -7.5,
             "f": 0,
             "g": 0,
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -1384,12 +1367,12 @@ questions = [
             "c": 0,
             "d": 0,
             "e": 0,
-            "f": 15,
+            "f": 7.5,
             "g": 0,
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -1466,7 +1449,7 @@ questions = [
         "effect": {
             "a": 0,
             "b": 0,
-            "c": 0,
+            "c": -7.5,
             "d": 0,
             "e": 0,
             "f": 15,
@@ -1520,12 +1503,12 @@ questions = [
             "c": 0,
             "d": 0,
             "e": 0,
-            "f": -15,
+            "f": -7.5,
             "g": 0,
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -1657,11 +1640,11 @@ questions = [
             "d": 0,
             "e": 0,
             "f": 0,
-            "g": 15,
+            "g": 7.5,
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -1938,7 +1921,7 @@ questions = [
         }
     },
     {
-        "question": "Animals, in regards to the law, should be treated as property.",
+        "question": "Eating meat is acceptable if the animal is treated ethically.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -1947,7 +1930,7 @@ questions = [
             "e": 0,
             "f": 0,
             "g": 0,
-            "h": 15,
+            "h": 5,
             "i": 0,
             "j": 0,
             "k": 0,
@@ -2066,10 +2049,10 @@ questions = [
             "e": 0,
             "f": 0,
             "g": 0,
-            "h": -15,
+            "h": -7.5,
             "i": 0,
             "j": 0,
-            "k": -15,
+            "k": 0,
             "l": 0
         }
     },
@@ -2476,8 +2459,8 @@ questions = [
             "g": 0,
             "h": 0,
             "i": 0,
-            "j": 15,
-            "k": -15,
+            "j": 7.5,
+            "k": 0,
             "l": 0
         }
     },
@@ -2612,8 +2595,8 @@ questions = [
             "g": 0,
             "h": 0,
             "i": 0,
-            "j": -15,
-            "k": -15,
+            "j": -7.5,
+            "k": 0,
             "l": 0
         }
     },
@@ -2987,8 +2970,8 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
-            "l": 15
+            "k": -0,
+            "l": 7.5
         }
     },
     {
@@ -3123,8 +3106,8 @@ questions = [
             "h": 0,
             "i": 0,
             "j": 0,
-            "k": -15,
-            "l": -15
+            "k": 0,
+            "l": -7.5
         }
     },
     {
