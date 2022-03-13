@@ -2533,6 +2533,23 @@ questions = [
         }
     },
     {
+        "question": "I do not enjoy the company of autistic people.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 10,
+            "k": -5,
+            "l": 0
+        }
+    },
+    {
         "question": "I do not have sympathy for disabled and mentally retarded people.",
         "effect": {
             "a": 0,
