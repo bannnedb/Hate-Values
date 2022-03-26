@@ -9,7 +9,11 @@
     lawful          = getQueryVariable("i")
     ableist         = getQueryVariable("j")
     tolerant        = getQueryVariable("k")
-    profurry       = getQueryVariable("l")
+    profurry        = getQueryVariable("l")
+    femboyphilic    = getQueryVariable("m")
+    tomboyphilic    = getQueryVariable("n")
+    selfloving      = getQueryVariable("o")
+    weeaboo         = getQueryVariable("p")
 	
     black         
     philosemitic 
@@ -22,7 +26,11 @@
     illegal     
     disableist  
     fanatical   
-    antifurry    
+    antifurry   
+    femboyphobic
+    tomboyphobic
+    selfhating
+    weeabphobic
 	
 	race Array = ["White Fanatic","White Nationalist","White Identitarian","White Bias","Colourblind","Black Bias","Black Identitarian","Black Nationalist","Black Supremacist"]
     jewi Array = ["SS Sleeper Cell","Anti-Semite","Judeophobe","Gentile","Egalitarian","Jewish Bias","Zionist","Ethno-Zionist","Fanatical Ethno-Zionist"]
