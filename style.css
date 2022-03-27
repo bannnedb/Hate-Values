@@ -345,6 +345,46 @@ div.profurry {
     text-align: left;
     border-right-style: solid;
 }
+div.femboyphilic {
+    background-color: #ecb2f0;
+    text-align: left;
+    border-right-style: solid;
+}
+div.femboyphobic {
+    background-color: #7ecee8;
+    text-align: right;
+    border-left-style: solid;
+}
+div.tomboyphilic {
+    background-color: #4624f2;
+    text-align: left;
+    border-right-style: solid;
+}
+div.tomboyphobic {
+    background-color: #f272b4;
+    text-align: right;
+    border-left-style: solid;
+}
+div.selfloving {
+    background-color: #6e26a6;
+    text-align: right;
+    border-left-style: solid;
+}
+div.selfhating {
+    background-color: #3d4768;
+    text-align: left;
+    border-right-style: solid;
+}
+div.weeaboo {
+    background-color: #8c8624;
+    text-align: right;
+    border-left-style: solid;
+}
+div.weebphobic {
+    background-color: #35c6bd;
+    text-align: left;
+    border-right-style: solid;
+}
 span.weight-300 {
     font-weight: 300;
 }
