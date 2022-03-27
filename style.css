@@ -367,22 +367,22 @@ div.tomboyphobic {
 }
 div.selfloving {
     background-color: #6e26a6;
-    text-align: right;
+    text-align: left;
     border-left-style: solid;
 }
 div.selfhating {
     background-color: #3d4768;
-    text-align: left;
+    text-align: right;
     border-right-style: solid;
 }
 div.weeaboo {
     background-color: #8c8624;
-    text-align: right;
+    text-align: left;
     border-left-style: solid;
 }
 div.weebphobic {
     background-color: #35c6bd;
-    text-align: left;
+    text-align: right;
     border-right-style: solid;
 }
 span.weight-300 {
