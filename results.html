@@ -217,10 +217,10 @@
     disableist      = (100 - ableist).toFixed(1)
     fanatical       = (100 - tolerant).toFixed(1)
     antifurry       = (100 - profurry).toFixed(1)
-    femboyphobic    = (100 - lawful).toFixed(1)
-    tomboyphobic    = (100 - ableist).toFixed(1)
-    selfhating      = (100 - tolerant).toFixed(1)
-    weebphobic      = (100 - profurry).toFixed(1)
+    femboyphobic    = (100 - femboyphilic).toFixed(1)
+    tomboyphobic    = (100 - tomboyphilic).toFixed(1)
+    selfhating      = (100 - selfloving).toFixed(1)
+    weebphobic      = (100 - weeaboo).toFixed(1)
 
     setBarValue("white", white)
     setBarValue("black", black)
@@ -271,7 +271,7 @@
     document.getElementById("femboy-label").innerHTML = setLabel(femboyphilic, fmbyArray)
     document.getElementById("tomboy-label").innerHTML = setLabel(tomboyphilic, tmbyArray)
     document.getElementById("yourself-label").innerHTML = setLabel(selfloving, selfArray)
-    document.getElementById("anime-label").innerHTML = setLabel(weebphobic, weebArray)
+    document.getElementById("anime-label").innerHTML = setLabel(weeaboo, weebArray)
 
     ideology = ""
     ideodist = Infinity
@@ -292,7 +292,7 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.fmby - femboyphilic), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.tmby - tomboyphilic), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.self - selfloving), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.weeb - weebphobic), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.weeb - weeaboo), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
