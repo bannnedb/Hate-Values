@@ -197,6 +197,10 @@
     ableist         = getQueryVariable("j")
     tolerant        = getQueryVariable("k")
     profurry        = getQueryVariable("l")
+    femboyphilic   = getQueryVariable("m")
+    tomboyphilic   = getQueryVariable("n")
+    selfloving      = getQueryVariable("o")
+    weeaboo         = getQueryVariable("p")
     black           = (100 - white).toFixed(1)
     philosemitic    = (100 - antisemitic).toFixed(1)
     matriarchal     = (100 - patriarchal).toFixed(1)
@@ -209,6 +213,10 @@
     disableist      = (100 - ableist).toFixed(1)
     fanatical       = (100 - tolerant).toFixed(1)
     antifurry       = (100 - profurry).toFixed(1)
+    femboyphobic    = (100 - lawful).toFixed(1)
+    tomboyphobic    = (100 - ableist).toFixed(1)
+    selfhating      = (100 - tolerant).toFixed(1)
+    weebphobic      = (100 - profurry).toFixed(1)
 
     setBarValue("white", white)
     setBarValue("black", black)
@@ -234,6 +242,14 @@
     setBarValue("fanatical", fanatical)
     setBarValue("profurry", profurry)
     setBarValue("antifurry", antifurry)
+    setBarValue("femboyphilic", femboyphilic)
+    setBarValue("femboyphobic", femboyphobic)
+    setBarValue("tomboyphilic", tomboyphilic)
+    setBarValue("tomboyphobic", tomboyphobic)
+    setBarValue("selfloving", selfloving)
+    setBarValue("selfhating", selfhating)
+    setBarValue("weeaboo", weeaboo)
+    setBarValue("weebphobic", weebphobic)
     
 
     document.getElementById("race-label").innerHTML = setLabel(white, raceArray)
@@ -248,6 +264,10 @@
     document.getElementById("disability-label").innerHTML = setLabel(ableist, disaArray)
     document.getElementById("tolerance-label").innerHTML = setLabel(tolerant, toleArray)
     document.getElementById("furry-label").innerHTML = setLabel(profurry, furrArray)
+    document.getElementById("femboy-label").innerHTML = setLabel(femboyphilic, fmbyArray)
+    document.getElementById("tomboy-label").innerHTML = setLabel(tomboyphilic, tmbyArray)
+    document.getElementById("yourself-label").innerHTML = setLabel(selfloving, selfArray)
+    document.getElementById("anime-label").innerHTML = setLabel(weebphobic, weebArray)
 
     ideology = ""
     ideodist = Infinity
@@ -265,6 +285,10 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.disa - ableist), 3)
         dist += Math.pow(Math.abs(ideologies[i].stats.tole - tolerant), 3)
         dist += Math.pow(Math.abs(ideologies[i].stats.furr - profurry), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.fmby - femboyphilic), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.tmby - tomboyphilic), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.self - selfloving), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.weeb - weebphobic), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
@@ -285,7 +309,7 @@
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#777"
-        ctx.fillRect(0,0,800,1560)
+        ctx.fillRect(0,0,800,2040)
 
         img = document.getElementById("img-white")
         ctx.drawImage(img, 20, 120, 100, 100);
@@ -335,6 +359,22 @@
         ctx.drawImage(img, 20, 1440, 100, 100)
         img = document.getElementById("img-antifurry")
         ctx.drawImage(img, 680, 1440, 100, 100)
+        img = document.getElementById("img-femboyphilic")
+        ctx.drawImage(img, 20, 1560, 100, 100)
+        img = document.getElementById("img-femboyphobic")
+        ctx.drawImage(img, 680, 1560, 100, 100)
+        img = document.getElementById("img-tomboyphilic")
+        ctx.drawImage(img, 20, 1680, 100, 100)
+        img = document.getElementById("img-tomboyphobic")
+        ctx.drawImage(img, 680, 1680, 100, 100)
+        img = document.getElementById("img-selfloving")
+        ctx.drawImage(img, 20, 1800, 100, 100)
+        img = document.getElementById("img-selfhating")
+        ctx.drawImage(img, 680, 1800, 100, 100)
+        img = document.getElementById("img-weeaboo")
+        ctx.drawImage(img, 20, 1920, 100, 100)
+        img = document.getElementById("img-weebphobic")
+        ctx.drawImage(img, 680, 1920, 100, 100)
 
         ctx.fillStyle="#222"
         ctx.fillRect(120, 130, 560, 80)
@@ -349,6 +389,10 @@
         ctx.fillRect(120, 1210, 560, 80)
         ctx.fillRect(120, 1330, 560, 80)
         ctx.fillRect(120, 1450, 560, 80)
+        ctx.fillRect(120, 1570, 560, 80)
+        ctx.fillRect(120, 1690, 560, 80)
+        ctx.fillRect(120, 1810, 560, 80)
+        ctx.fillRect(120, 1930, 560, 80)
         ctx.fillStyle="#fff"
         ctx.fillRect(120, 134, 5.6*white-2, 72)
         ctx.fillStyle="#000"
@@ -397,6 +441,22 @@
         ctx.fillRect(120, 1454, 5.6*profurry-2, 72)
         ctx.fillStyle="#314f44" 
         ctx.fillRect(682-5.6*antifurry, 1454, 5.6*antifurry-2, 72)
+        ctx.fillStyle="#ecb2f0"
+        ctx.fillRect(120, 1094, 5.6*femboyphilic-2, 72)
+        ctx.fillStyle="#7ecee8" 
+        ctx.fillRect(682-5.6*femboyphobic, 1094, 5.6*femboyphobic-2, 72)
+        ctx.fillStyle="#4624f2"
+        ctx.fillRect(120, 1214, 5.6*tomboyphilic-2, 72)
+        ctx.fillStyle="#f272b4"
+        ctx.fillRect(682-5.6*tomboyphobic, 1214, 5.6*tomboyphobic-2, 72)
+        ctx.fillStyle="#6e26a6" 
+        ctx.fillRect(120, 1334, 5.6*selfloving-2, 72)
+        ctx.fillStyle="#3d4768"
+        ctx.fillRect(682-5.6*selfhating, 1334, 5.6*selfhating-2, 72)
+        ctx.fillStyle="#8c8624"
+        ctx.fillRect(120, 1454, 5.6*weeaboo-2, 72)
+        ctx.fillStyle="#35c6bd" 
+        ctx.fillRect(682-5.6*weebphobic, 1454, 5.6*weebphobic-2, 72)
         ctx.fillStyle="#222222"
         ctx.font="700 30px Teko"
         ctx.textAlign="left"
@@ -404,7 +464,7 @@
         ctx.fillStyle="#222222"
         ctx.font="700 30px Teko"
         ctx.textAlign="right"
-        ctx.fillText("26/03/22", 780, 90)        //Change this when updating
+        ctx.fillText("27/03/22", 780, 90)        //Change this when updating
         ctx.fillStyle="#000"
         ctx.font="700 60px Teko"
         ctx.textAlign="center"
@@ -414,31 +474,39 @@
 
         ctx.font="40px Arial"
         ctx.textAlign="left"
-        if (white        > 25) {ctx.fillText(white + "%", 130, 187.5)}
-        if (antisemitic  > 25) {ctx.fillText(antisemitic + "%", 130, 307.5)}
-        if (patriarchal  > 25) {ctx.fillText(patriarchal + "%", 130, 427.5)}
-        if (xenophobic   > 25) {ctx.fillText(xenophobic + "%", 130, 547.5)}
-        if (homophobic   > 25) {ctx.fillText(homophobic + "%", 130, 667.5)}
-        if (transphobic  > 25) {ctx.fillText(transphobic + "%", 130, 787.5)}
-        if (pedophobic   > 25) {ctx.fillText(pedophobic + "%", 130, 907.5)}
+        if (white           > 25) {ctx.fillText(white + "%", 130, 187.5)}
+        if (antisemitic     > 25) {ctx.fillText(antisemitic + "%", 130, 307.5)}
+        if (patriarchal     > 25) {ctx.fillText(patriarchal + "%", 130, 427.5)}
+        if (xenophobic      > 25) {ctx.fillText(xenophobic + "%", 130, 547.5)}
+        if (homophobic      > 25) {ctx.fillText(homophobic + "%", 130, 667.5)}
+        if (transphobic     > 25) {ctx.fillText(transphobic + "%", 130, 787.5)}
+        if (pedophobic      > 25) {ctx.fillText(pedophobic + "%", 130, 907.5)}
         if (anthropocentric > 25) {ctx.fillText(anthropocentric + "%", 130, 1027.5)}
-        if (lawful       > 25) {ctx.fillText(lawful + "%", 130, 1147.5)}
-        if (ableist      > 25) {ctx.fillText(ableist + "%", 130, 1267.5)}
-        if (tolerant     > 25) {ctx.fillText(tolerant + "%", 130, 1387.5)}
-        if (profurry     > 25) {ctx.fillText(profurry + "%", 130, 1507.5)}
+        if (lawful          > 25) {ctx.fillText(lawful + "%", 130, 1147.5)}
+        if (ableist         > 25) {ctx.fillText(ableist + "%", 130, 1267.5)}
+        if (tolerant        > 25) {ctx.fillText(tolerant + "%", 130, 1387.5)}
+        if (profurry        > 25) {ctx.fillText(profurry + "%", 130, 1507.5)}
+        if (femboyphilic    > 25) {ctx.fillText(femboyphilic + "%", 130, 1627.5)}
+        if (tomboyphilic    > 25) {ctx.fillText(tomboyphilic + "%", 130, 1747.5)}
+        if (selfloving      > 25) {ctx.fillText(selfloving + "%", 130, 1867.5)}
+        if (weeaboo         > 25) {ctx.fillText(weeaboo + "%", 130, 1987.5)}
         ctx.textAlign="right"
-        if (black        > 25) {ctx.fillText(black + "%", 670, 187.5)}
-        if (philosemitic > 25) {ctx.fillText(philosemitic + "%", 670, 307.5)}
-        if (matriarchal  > 25) {ctx.fillText(matriarchal + "%", 670, 427.5)}
-        if (xenomanic    > 25) {ctx.fillText(xenomanic + "%", 670, 547.5)}
-        if (homophilic   > 25) {ctx.fillText(homophilic + "%", 670, 667.5)}
-        if (transphilic  > 25) {ctx.fillText(transphilic + "%", 670, 787.5)}
-        if (pedophilic   > 25) {ctx.fillText(pedophilic + "%", 670, 907.5)}
-        if (jainistic    > 25) {ctx.fillText(jainistic + "%", 670, 1027.5)}
-        if (illegal      > 25) {ctx.fillText(illegal + "%", 670, 1147.5)}
-        if (disableist   > 25) {ctx.fillText(disableist + "%", 670, 1267.5)}
-        if (fanatical    > 25) {ctx.fillText(fanatical + "%", 670, 1387.5)}
-        if (antifurry    > 25) {ctx.fillText(antifurry + "%", 670, 1507.5)}
+        if (black           > 25) {ctx.fillText(black + "%", 670, 187.5)}
+        if (philosemitic    > 25) {ctx.fillText(philosemitic + "%", 670, 307.5)}
+        if (matriarchal     > 25) {ctx.fillText(matriarchal + "%", 670, 427.5)}
+        if (xenomanic       > 25) {ctx.fillText(xenomanic + "%", 670, 547.5)}
+        if (homophilic      > 25) {ctx.fillText(homophilic + "%", 670, 667.5)}
+        if (transphilic     > 25) {ctx.fillText(transphilic + "%", 670, 787.5)}
+        if (pedophilic      > 25) {ctx.fillText(pedophilic + "%", 670, 907.5)}
+        if (jainistic       > 25) {ctx.fillText(jainistic + "%", 670, 1027.5)}
+        if (illegal         > 25) {ctx.fillText(illegal + "%", 670, 1147.5)}
+        if (disableist      > 25) {ctx.fillText(disableist + "%", 670, 1267.5)}
+        if (fanatical       > 25) {ctx.fillText(fanatical + "%", 670, 1387.5)}
+        if (antifurry       > 25) {ctx.fillText(antifurry + "%", 670, 1507.5)}
+        if (femboyphobic    > 25) {ctx.fillText(femboyphobic + "%", 670, 1627.5)}
+        if (tomboyphobic    > 25) {ctx.fillText(tomboyphobic + "%", 670, 1747.5)}
+        if (selfhating      > 25) {ctx.fillText(selfhating + "%", 670, 1867.5)}
+        if (weebphoic       > 25) {ctx.fillText(weebphoic + "%", 670, 1987.5)}
 
         ctx.font="300 30px Teko"
         ctx.textAlign="center"
@@ -454,6 +522,11 @@
         ctx.fillText(document.getElementById("disability-label").innerHTML, 400, 1205)
         ctx.fillText(document.getElementById("tolerance-label").innerHTML, 400, 1325)
         ctx.fillText(document.getElementById("furry-label").innerHTML, 400, 1445)
+        ctx.fillText(document.getElementById("femboy-label").innerHTML, 400, 1565)
+        ctx.fillText(document.getElementById("tomboy-label").innerHTML, 400, 1685)
+        ctx.fillText(document.getElementById("yourself-label").innerHTML, 400, 1805)
+        ctx.fillText(document.getElementById("anime-label").innerHTML, 400, 1925)
+        
     }
     </script>
 </body>
