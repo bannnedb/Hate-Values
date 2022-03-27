@@ -24,8 +24,8 @@
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_a, max_b, max_c, max_d, max_e, max_f, max_g, max_h, max_i, max_j, max_k, max_l; // Max possible scores
-    max_a = max_b = max_c = max_d = max_e = max_f = max_g = max_h = max_i = max_j = max_k = max_l = 0;
+    var max_a, max_b, max_c, max_d, max_e, max_f, max_g, max_h, max_i, max_j, max_k, max_l, max_m, max_n, max_o, max_p; // Max possible scores
+    max_a = max_b = max_c = max_d = max_e = max_f = max_g = max_h = max_i = max_j = max_k = max_l = max_m = max_n = max_o = max_p = 0;
     let a_array = new Array(questions.length);
     let b_array = new Array(questions.length);
     let c_array = new Array(questions.length);
@@ -38,6 +38,10 @@
     let j_array = new Array(questions.length);
     let k_array = new Array(questions.length);
     let l_array = new Array(questions.length);
+    let m_array = new Array(questions.length);
+    let n_array = new Array(questions.length);
+    let o_array = new Array(questions.length);
+    let p_array = new Array(questions.length);
     var qn = 0; // Question number
     init_question();
     for (var i = 0; i < questions.length; i++) {
@@ -53,6 +57,10 @@
         max_j += Math.abs(questions[i].effect.j)
         max_k += Math.abs(questions[i].effect.k)
         max_l += Math.abs(questions[i].effect.l)
+        max_m += Math.abs(questions[i].effect.m)
+        max_n += Math.abs(questions[i].effect.n)
+        max_o += Math.abs(questions[i].effect.o)
+        max_p += Math.abs(questions[i].effect.p)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -80,6 +88,10 @@
         j_array[qn] = mult*questions[qn].effect.j
         k_array[qn] = mult*questions[qn].effect.k
         l_array[qn] = mult*questions[qn].effect.l
+        m_array[qn] = mult*questions[qn].effect.m
+        n_array[qn] = mult*questions[qn].effect.n
+        o_array[qn] = mult*questions[qn].effect.o
+        p_array[qn] = mult*questions[qn].effect.p
         qn++;
         if (qn < questions.length) {
             init_question();
@@ -113,6 +125,10 @@
         let final_j = j_array.reduce((a, b) => a + b, 0)
         let final_k = k_array.reduce((a, b) => a + b, 0)
         let final_l = l_array.reduce((a, b) => a + b, 0)
+        let final_m = m_array.reduce((a, b) => a + b, 0)
+        let final_n = n_array.reduce((a, b) => a + b, 0)
+        let final_o = o_array.reduce((a, b) => a + b, 0)
+        let final_p = p_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
             + `?a=${calc_score(final_a,max_a)}`
             + `&b=${calc_score(final_b,max_b)}`
@@ -126,6 +142,10 @@
             + `&j=${calc_score(final_j,max_j)}`
             + `&k=${calc_score(final_k,max_k)}`
             + `&l=${calc_score(final_l,max_l)}`
+            + `&m=${calc_score(final_i,max_m)}`
+            + `&n=${calc_score(final_j,max_n)}`
+            + `&o=${calc_score(final_k,max_o)}`
+            + `&p=${calc_score(final_l,max_p)}`
     }
 </script>
 </body>
