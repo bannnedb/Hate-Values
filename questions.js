@@ -4809,7 +4809,7 @@ questions = [
         }
     },
     {
-        "question": "There is nothing wrong in being proud of who you are.",
+        "question": "There is nothing wrong with being proud of who you are.",
         "effect": {
             "a": 0,
             "b": 0,
