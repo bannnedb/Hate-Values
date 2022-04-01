@@ -393,6 +393,19 @@ span.weight-300 {
     border-radius: 25px;
     margin-top: 15px;
 }
+#topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97.15vw;
+    padding: 1%;
+    background: #FF8797; /*pink*/
+}
+
+#topbar p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 #banner {
     border-color: #444444;
     border-style: solid;
