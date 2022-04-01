@@ -4326,6 +4326,27 @@ questions = [
         }
     },
     {
+        "question": "The existence of effeminate men yields a unique benefit unto the world.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": -2,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 10,
+            "n": 0,
+            "o": 0,
+            "p": 0
+        }
+    },
+    {
         "question": "Femboys, in order to preserve their way of life, must seize political power.",
         "effect": {
             "a": 0,
@@ -4746,7 +4767,7 @@ questions = [
         }
     },
     {
-        "question": "I wish I could live alone in this world.",
+        "question": "I do not sympathise with the condition of the poor.",
         "effect": {
             "a": 0,
             "b": 0,
@@ -4764,6 +4785,321 @@ questions = [
             "n": 0,
             "o": -10,
             "p": 0
+        }
+    },
+    {
+        "question": "There is nothing wrong in being proud of who you are.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": -10,
+            "p": 0
+        }
+    },
+    {
+        "question": "I love modern Japanese culture.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": 10
+        }
+    },
+    {
+        "question": "I have, or would like to emass, a katana collection.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "I watch anime regularly.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "I am not Japanese and would like to move to Japan.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "People view me as obsessed with Japanese culture.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "I watch Japanese movies/tv shows more than those of my own country.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "The Japanese are the master race.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "Weeaboos are bad people.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "I hate anime.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "I have never willingly watched a cartoon in Japanese.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "Japanese culture has nothing to offer the rest of the world.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
+        }
+    },
+    {
+        "question": "I hate Japanese culture.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -5
+        }
+    },
+    {
+        "question": "Anime proves that two nukes weren't enough.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -5
+        }
+    },
+    {
+        "question": "I dislike Japanese cartoons.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": 0,
+            "n": 0,
+            "o": 0,
+            "p": -10
         }
     },
     {
