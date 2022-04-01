@@ -4136,7 +4136,7 @@ questions = [
             "p": 0
     },
     {
-        "question": "Genocide and/or eugenics with the goal of removing tomoboys from society is a good idea.",
+        "question": "Genocide and/or eugenics with the goal of removing tomboys from society is a good idea.",
         "effect": {
             "a": 0,
             "b": 0,
