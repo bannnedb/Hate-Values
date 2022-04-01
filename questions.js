@@ -4725,7 +4725,7 @@ questions = [
         }
     },
     {
-        "question": "I deserve better than what I have.",
+        "question": "I am a unique and special person, and deserve to be thought of as such.",
         "effect": {
             "a": 0,
             "b": 0,
