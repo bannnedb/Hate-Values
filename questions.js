@@ -3988,5 +3988,26 @@ questions = [
             "o": 0,
             "p": 0
         }
+    },
+    {
+        "question": "Genocide and/or eugenics with the goal of removing femoboys from society is a good idea.",
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "i": 0,
+            "j": 0,
+            "k": 0,
+            "l": 0,
+            "m": -10,
+            "n": 0,
+            "o": 0,
+            "p": 0
+        }
     }
 ];
