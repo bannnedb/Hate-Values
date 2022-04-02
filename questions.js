@@ -588,7 +588,7 @@ questions = [
         }
     },
     {
-        "question": "'Capitalism and Bolshevism are the two sides of the same international Jewish coin.'",
+        "question": "'Democrat and Republican are the two sides of the same international Jewish coin.'",
         "effect": {
             "a": 0,
             "b": 10,
