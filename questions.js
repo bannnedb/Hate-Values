@@ -1659,7 +1659,7 @@ questions = [
         }
     },
     {
-        "question": "Heteo-supremacism is a serious threat to civilisation.",
+        "question": "Hetero-supremacism is a serious threat to civilisation.",
         "effect": {
             "a": 0,
             "b": 0,
