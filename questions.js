@@ -4473,7 +4473,7 @@ questions = [
         }
     },
     {
-        "question": "The world would be a better place if women were more willing to embrace mascilinity.",
+        "question": "The world would be a better place if women were more willing to embrace masculinity.",
         "effect": {
             "a": 0,
             "b": 10,
